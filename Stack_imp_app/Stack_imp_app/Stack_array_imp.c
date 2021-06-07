@@ -6,7 +6,8 @@
 //  Copyright © 2021 PorUnaCabeza. All rights reserved.
 //
 
-#include "StackADT.h"
+/*
+ #include "StackADT.h"
 #define EmptyTOS -1
 #define MinStackSize 5
 struct Node{
@@ -84,4 +85,4 @@ void DeleteStack(const Stack S)
 {
     free(S->Array);
     free(S);
-}
+}*/

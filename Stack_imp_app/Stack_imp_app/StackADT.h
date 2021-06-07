@@ -16,8 +16,8 @@ typedef struct Node* PtrToNode;
 typedef PtrToNode Stack;
 //Create an empty stack,O(1)
 Stack CreateStack(void);
-//Create a stack with capacity of Capacity
-//Stack CreateStack_s(int Capacity);
+//Create a stack with capacity of Capacity ,only called when you want to create a stack implemented by array.
+Stack CreateStack_s(int Capacity);
 //O(1)
 int IsEmpty(Stack S);
 //O(1)

@@ -7,7 +7,7 @@
 //
 
 #include "StackADT.h"
-#define MAXStack_Size 20
+//#define MAXStack_Size 20
 int IsDigit(char ch)
 {
     if('0'<=ch&&ch<='9')
@@ -83,7 +83,7 @@ void Calculator(Stack operants,Stack operators)
 int Eval_inversepolish(char* expression)
 {
     int order=0;
-    Stack numbers=CreateStack_s(MAXStack_Size);
+    Stack numbers=CreateStack();
     for(;!IsEnd(*expression);expression++){ //scan over the expression
      if(IsSpace(*expression))
          continue;
@@ -122,8 +122,8 @@ int Eval_inversepolish(char* expression)
 //Evaluate the infix notation
 int Eval_infix(char* expression)
 {
-    Stack operants=CreateStack_s(MAXStack_Size);
-    Stack operators=CreateStack_s(MAXStack_Size);
+    Stack operants=CreateStack();
+    Stack operators=CreateStack();
     int order=0;
     for(;!IsEnd(*expression);expression++){
         if(IsSpace(*expression))

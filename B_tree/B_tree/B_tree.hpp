@@ -22,4 +22,6 @@ typedef BTree Position;
 BTree Insert(ElementType X,BTree T);
 //Delete an element X from BTree T
 BTree Delete(ElementType X ,BTree T);
+//Print the tree level by level
+void Print_Tree(Position root);
 #endif /* B_tree_hpp */
