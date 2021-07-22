@@ -100,14 +100,13 @@ void PreOrder(SearchTree T)
         printf("%d  ",P->element);
         P=P->left;
         }
-        Position R=NULL;
         while(!sta.empty())
         {
-            R=sta.top();
+            P=sta.top();
             sta.pop();
-            if(HasRight(R))
+            if(HasRight(P))
             {
-                sta.push(R->right);
+                sta.push(P->right);
                 break;
             }
         }
@@ -116,6 +115,8 @@ void PreOrder(SearchTree T)
             P=sta.top();
             sta.pop();
         }
+        else
+            return ;
     }
     return ;
 }
