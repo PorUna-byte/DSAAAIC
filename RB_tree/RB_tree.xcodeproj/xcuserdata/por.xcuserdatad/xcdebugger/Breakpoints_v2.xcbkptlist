@@ -6,17 +6,49 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RB_tree/main.cpp"
-            timestampString = "648638069.71641"
+            timestampString = "648656158.9147381"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "52"
-            endingLineNumber = "52"
+            startingLineNumber = "85"
+            endingLineNumber = "85"
             landmarkName = "main(int argc, const char * argv[])"
             landmarkType = "9">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "RB_tree"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/por/Documents/DSAAAIC/RB_tree/RB_tree/main.cpp"
+                  timestampString = "648656107.755012"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "87"
+                  endingLineNumber = "87"
+                  offsetFromSymbolStart = "571">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "RB_tree"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/por/Documents/DSAAAIC/RB_tree/RB_tree/main.cpp"
+                  timestampString = "648656107.756982"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "87"
+                  endingLineNumber = "87"
+                  offsetFromSymbolStart = "887">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

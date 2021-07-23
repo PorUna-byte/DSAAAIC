@@ -65,4 +65,8 @@ void Print_tree(Tree* T);
  We only verify the property 2,4,5 .since the property 1,3 is obvious held.
  */
 bool verify_RBT(Tree* T);
+/*
+ free the memory allocated for this tree.
+ */
+void free_tree(Tree* T);
 #endif /* RB_tree_hpp */

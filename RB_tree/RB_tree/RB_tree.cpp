@@ -390,6 +390,7 @@ void Delete(Tree* T,KeyType key)
         y->left->parent=y;
         y->color=z->color; //y must extends z's color.
     }
+    free(z);
     if(y_origin_color==black&&x!=T->nil)//if y's original color is red, nothing need to do, since all 5 properties still hold.
         Delete_fixup(T, x);
     if(y_origin_color==black&&no_child&&parent_only_child)//if y(z) has no child and it
@@ -473,4 +474,44 @@ bool verify_RBT(Tree* T)
         }
     }
     return true;
+}
+void free_tree(Tree* T)
+{
+    if(T->root==T->nil)
+    {
+        printf("empty tree!\n");
+        return ;
+    }
+    Node* P=T->root;
+    stack<Node*>sta;
+    bool flag=true;
+    Node* pre=T->nil;
+    Node* R=T->nil;
+    //An indication for left subtree.
+    //if left subtree was visited before then flag=1,else 0.
+    do{
+        while(P!=T->nil)  //push all left subtrees
+        {
+            sta.push(P);
+            P=P->left;
+        }
+        flag=true; //left subtree has been visited
+        while(!sta.empty()&&flag)
+        {
+            R=sta.top();
+            if(R->right!=T->nil&&R->right!=pre)//if has right subtree and right subtree was not visited before!
+            {
+                P=R->right; //traverse right subtree
+                flag=false; //now,the right subtree's left subtree is not visited.
+            }
+            else
+            {
+                free(R);
+                pre=R;  //set current node as pre,since current node is being visited!
+                sta.pop();
+            }
+        }
+    }
+    while(!sta.empty());
+    return ;
 }

@@ -10,10 +10,10 @@
 #include <time.h>
 #include <fstream>
 #define N 240000
-#define range 1000000000
+#define range 100000000
 #define test_random
 #define test_delete
-#define ROUND 1000
+#define ROUND 10
 int main(int argc, const char * argv[]) {
    int array[N]={4323,1048,5322,8043,2414,1160,3007,6407,5666,9922,2677,1361,8561,6422,4607,
        3180,5551,6842,6515,2768,1959,6690,8127,714};
@@ -39,7 +39,7 @@ int main(int argc, const char * argv[]) {
     }
 #ifndef test_random
     Print_tree(T);
-        cout<<"Insertion verity:"<<(verify_RBT(T)==true?"verify success":"verify error")<<endl;
+        cout<<"Insertion verify:"<<(verify_RBT(T)==true?"verify success":"verify error")<<endl;
 #endif
 #ifdef test_delete
 #ifndef test_random
@@ -80,6 +80,7 @@ int main(int argc, const char * argv[]) {
 #ifndef test_random
         cout<<"Deletetion verify:"<<(verify_RBT(T)==true?"verify success":"verify error")<<endl;
 #endif
+        free_tree(T);
 #ifdef test_random
     }
 #endif
