@@ -513,5 +513,6 @@ void free_tree(Tree* T)
         }
     }
     while(!sta.empty());
+    
     return ;
 }
