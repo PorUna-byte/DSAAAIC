@@ -7,18 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8A420EC926A2FF120095C5C0 /* FindArt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A420EC826A2FF120095C5C0 /* FindArt.cpp */; };
-		8A6D070626A16AA400F155F1 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A6D070526A16AA400F155F1 /* main.cpp */; };
-		8A6D071126A16B2000F155F1 /* Dijkstra.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A6D070F26A16B2000F155F1 /* Dijkstra.cpp */; };
-		8A6D071826A1D48500F155F1 /* WSPAlgo_Negative.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A6D071726A1D48500F155F1 /* WSPAlgo_Negative.cpp */; };
-		8A6F4B6A26A2781A00166C4B /* Prim.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A6F4B6926A2781A00166C4B /* Prim.cpp */; };
-		8A6F4B6C26A2836C00166C4B /* Graph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A6F4B6B26A2836C00166C4B /* Graph.cpp */; };
-		8A6F4B6E26A2925100166C4B /* Kruskal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A6F4B6D26A2925100166C4B /* Kruskal.cpp */; };
-		8AACCD9F27428B5F00D6E88E /* SCC.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8AACCD9E27428B5F00D6E88E /* SCC.cpp */; };
+		8ADB9BD227326E61002AAD5F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8ADB9BD127326E61002AAD5F /* main.cpp */; };
+		8ADB9BDB27326F03002AAD5F /* Tournament.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8ADB9BD927326F03002AAD5F /* Tournament.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		8A6D070026A16AA300F155F1 /* CopyFiles */ = {
+		8ADB9BCC27326E61002AAD5F /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -30,23 +24,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		8A420EC826A2FF120095C5C0 /* FindArt.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FindArt.cpp; sourceTree = "<group>"; };
-		8A420ECA26A308180095C5C0 /* Art */ = {isa = PBXFileReference; lastKnownFileType = text; path = Art; sourceTree = "<group>"; };
-		8A6D070226A16AA400F155F1 /* GraphAlgo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GraphAlgo; sourceTree = BUILT_PRODUCTS_DIR; };
-		8A6D070526A16AA400F155F1 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		8A6D070F26A16B2000F155F1 /* Dijkstra.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Dijkstra.cpp; sourceTree = "<group>"; };
-		8A6D071026A16B2000F155F1 /* Graph.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Graph.hpp; sourceTree = "<group>"; };
-		8A6D071626A1B4FF00F155F1 /* graph */ = {isa = PBXFileReference; lastKnownFileType = text; path = graph; sourceTree = "<group>"; };
-		8A6D071726A1D48500F155F1 /* WSPAlgo_Negative.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = WSPAlgo_Negative.cpp; sourceTree = "<group>"; };
-		8A6F4B6926A2781A00166C4B /* Prim.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Prim.cpp; sourceTree = "<group>"; };
-		8A6F4B6B26A2836C00166C4B /* Graph.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Graph.cpp; sourceTree = "<group>"; };
-		8A6F4B6D26A2925100166C4B /* Kruskal.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Kruskal.cpp; sourceTree = "<group>"; };
-		8AACCD9E27428B5F00D6E88E /* SCC.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SCC.cpp; sourceTree = "<group>"; };
-		8AACCDA02742A05700D6E88E /* scc */ = {isa = PBXFileReference; lastKnownFileType = text; path = scc; sourceTree = "<group>"; };
+		8ADB9BCE27326E61002AAD5F /* Tournament_tree */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Tournament_tree; sourceTree = BUILT_PRODUCTS_DIR; };
+		8ADB9BD127326E61002AAD5F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8ADB9BD927326F03002AAD5F /* Tournament.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Tournament.cpp; sourceTree = "<group>"; };
+		8ADB9BDA27326F03002AAD5F /* Tournament.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Tournament.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8A6D06FF26A16AA300F155F1 /* Frameworks */ = {
+		8ADB9BCB27326E61002AAD5F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -56,112 +41,97 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8A6D06F926A16AA300F155F1 = {
+		8ADB9BC527326E61002AAD5F = {
 			isa = PBXGroup;
 			children = (
-				8A6D070426A16AA400F155F1 /* GraphAlgo */,
-				8A6D070326A16AA400F155F1 /* Products */,
+				8ADB9BD027326E61002AAD5F /* Tournament_tree */,
+				8ADB9BCF27326E61002AAD5F /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		8A6D070326A16AA400F155F1 /* Products */ = {
+		8ADB9BCF27326E61002AAD5F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8A6D070226A16AA400F155F1 /* GraphAlgo */,
+				8ADB9BCE27326E61002AAD5F /* Tournament_tree */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8A6D070426A16AA400F155F1 /* GraphAlgo */ = {
+		8ADB9BD027326E61002AAD5F /* Tournament_tree */ = {
 			isa = PBXGroup;
 			children = (
-				8A6D070526A16AA400F155F1 /* main.cpp */,
-				8A6D070F26A16B2000F155F1 /* Dijkstra.cpp */,
-				8A6D071026A16B2000F155F1 /* Graph.hpp */,
-				8A6D071626A1B4FF00F155F1 /* graph */,
-				8A6D071726A1D48500F155F1 /* WSPAlgo_Negative.cpp */,
-				8A6F4B6926A2781A00166C4B /* Prim.cpp */,
-				8A6F4B6B26A2836C00166C4B /* Graph.cpp */,
-				8A6F4B6D26A2925100166C4B /* Kruskal.cpp */,
-				8A420EC826A2FF120095C5C0 /* FindArt.cpp */,
-				8A420ECA26A308180095C5C0 /* Art */,
-				8AACCD9E27428B5F00D6E88E /* SCC.cpp */,
-				8AACCDA02742A05700D6E88E /* scc */,
+				8ADB9BD127326E61002AAD5F /* main.cpp */,
+				8ADB9BD927326F03002AAD5F /* Tournament.cpp */,
+				8ADB9BDA27326F03002AAD5F /* Tournament.hpp */,
 			);
-			path = GraphAlgo;
+			path = Tournament_tree;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8A6D070126A16AA300F155F1 /* GraphAlgo */ = {
+		8ADB9BCD27326E61002AAD5F /* Tournament_tree */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8A6D070926A16AA400F155F1 /* Build configuration list for PBXNativeTarget "GraphAlgo" */;
+			buildConfigurationList = 8ADB9BD527326E61002AAD5F /* Build configuration list for PBXNativeTarget "Tournament_tree" */;
 			buildPhases = (
-				8A6D06FE26A16AA300F155F1 /* Sources */,
-				8A6D06FF26A16AA300F155F1 /* Frameworks */,
-				8A6D070026A16AA300F155F1 /* CopyFiles */,
+				8ADB9BCA27326E61002AAD5F /* Sources */,
+				8ADB9BCB27326E61002AAD5F /* Frameworks */,
+				8ADB9BCC27326E61002AAD5F /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = GraphAlgo;
-			productName = GraphAlgo;
-			productReference = 8A6D070226A16AA400F155F1 /* GraphAlgo */;
+			name = Tournament_tree;
+			productName = Tournament_tree;
+			productReference = 8ADB9BCE27326E61002AAD5F /* Tournament_tree */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		8A6D06FA26A16AA300F155F1 /* Project object */ = {
+		8ADB9BC627326E61002AAD5F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1030;
 				ORGANIZATIONNAME = PorUnaCabeza;
 				TargetAttributes = {
-					8A6D070126A16AA300F155F1 = {
+					8ADB9BCD27326E61002AAD5F = {
 						CreatedOnToolsVersion = 10.3;
 					};
 				};
 			};
-			buildConfigurationList = 8A6D06FD26A16AA300F155F1 /* Build configuration list for PBXProject "GraphAlgo" */;
+			buildConfigurationList = 8ADB9BC927326E61002AAD5F /* Build configuration list for PBXProject "Tournament_tree" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 8A6D06F926A16AA300F155F1;
-			productRefGroup = 8A6D070326A16AA400F155F1 /* Products */;
+			mainGroup = 8ADB9BC527326E61002AAD5F;
+			productRefGroup = 8ADB9BCF27326E61002AAD5F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8A6D070126A16AA300F155F1 /* GraphAlgo */,
+				8ADB9BCD27326E61002AAD5F /* Tournament_tree */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8A6D06FE26A16AA300F155F1 /* Sources */ = {
+		8ADB9BCA27326E61002AAD5F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A6D071826A1D48500F155F1 /* WSPAlgo_Negative.cpp in Sources */,
-				8AACCD9F27428B5F00D6E88E /* SCC.cpp in Sources */,
-				8A420EC926A2FF120095C5C0 /* FindArt.cpp in Sources */,
-				8A6F4B6E26A2925100166C4B /* Kruskal.cpp in Sources */,
-				8A6F4B6A26A2781A00166C4B /* Prim.cpp in Sources */,
-				8A6D070626A16AA400F155F1 /* main.cpp in Sources */,
-				8A6D071126A16B2000F155F1 /* Dijkstra.cpp in Sources */,
-				8A6F4B6C26A2836C00166C4B /* Graph.cpp in Sources */,
+				8ADB9BDB27326F03002AAD5F /* Tournament.cpp in Sources */,
+				8ADB9BD227326E61002AAD5F /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		8A6D070726A16AA400F155F1 /* Debug */ = {
+		8ADB9BD327326E61002AAD5F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -220,7 +190,7 @@
 			};
 			name = Debug;
 		};
-		8A6D070826A16AA400F155F1 /* Release */ = {
+		8ADB9BD427326E61002AAD5F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -272,7 +242,7 @@
 			};
 			name = Release;
 		};
-		8A6D070A26A16AA400F155F1 /* Debug */ = {
+		8ADB9BD627326E61002AAD5F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -280,7 +250,7 @@
 			};
 			name = Debug;
 		};
-		8A6D070B26A16AA400F155F1 /* Release */ = {
+		8ADB9BD727326E61002AAD5F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -291,25 +261,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8A6D06FD26A16AA300F155F1 /* Build configuration list for PBXProject "GraphAlgo" */ = {
+		8ADB9BC927326E61002AAD5F /* Build configuration list for PBXProject "Tournament_tree" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8A6D070726A16AA400F155F1 /* Debug */,
-				8A6D070826A16AA400F155F1 /* Release */,
+				8ADB9BD327326E61002AAD5F /* Debug */,
+				8ADB9BD427326E61002AAD5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8A6D070926A16AA400F155F1 /* Build configuration list for PBXNativeTarget "GraphAlgo" */ = {
+		8ADB9BD527326E61002AAD5F /* Build configuration list for PBXNativeTarget "Tournament_tree" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8A6D070A26A16AA400F155F1 /* Debug */,
-				8A6D070B26A16AA400F155F1 /* Release */,
+				8ADB9BD627326E61002AAD5F /* Debug */,
+				8ADB9BD727326E61002AAD5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 8A6D06FA26A16AA300F155F1 /* Project object */;
+	rootObject = 8ADB9BC627326E61002AAD5F /* Project object */;
 }

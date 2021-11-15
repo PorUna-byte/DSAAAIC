@@ -125,6 +125,12 @@ void Kruskal(Table T);
  */
 void FindArt(Table T,Vertex V);
 /*
+ This routine aims to find all strong connected components in a directed graph.
+ Time complexity:O(|V|+|E|)
+ Space complexity:O(|V|)
+ */
+void FindSCC(Table T);
+/*
  This is a simple routine to perform deep-first-search in Graph G(which is stored in T)
  We provide a non-recursive fashion.
  O(|V|+|E|)

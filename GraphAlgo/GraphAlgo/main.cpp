@@ -56,7 +56,13 @@ void test7()
     Table T=InitTable(1, "Art");
     BFS(T);
 }
+void test8()
+{
+    Table T=InitTable(1, "scc");
+    cout<<"The strong connected component is:"<<endl;
+    FindSCC(T);
+}
 int main(int argc, const char * argv[]) {
-    test7();
+    test8();
     return 0;
 }
