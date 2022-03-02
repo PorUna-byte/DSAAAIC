@@ -21,7 +21,7 @@ void oom(){
     printf("out of memory\n");
     exit(-1);
 }
-void *Malloc(size_t size)//A simple warpper to simplify the code
+void *Malloc(size_t size)//A simple wrapper to simplify the code
 {
     void *ptr=malloc(size);
     if(ptr==NULL)
@@ -252,8 +252,7 @@ void Delete_fixup(Tree* T,Node* x)
                  We take one black off both x and w,leaving x with only one black and leaving w red.
                  To compensate it, we would like to add one extra black to x->parent,which was originally either
                  red or black.We do so by repeating the while loop with x->parent as the new node x.
-                 If x->parent was red originally, after this loop iteration, the next loop will fail,and we just mark
-                 it black.
+                 If x->parent was red originally, after this loop iteration, the next loop will fail,and we just mark it black.
                  If x->parent was black originally, after this loop iteration, the next loop will continue,and we
                  just mark it double black!
                  */

@@ -10,14 +10,13 @@
  1.Every node is either red or black
  2.The root is black
  3.Every leaf(nil) is black
- 4.If a node is red, then both its children are black.(Node that two red nodes can not be adjacent,but black nodes can
- adjacent to red node or black node.)
+ 4.If a node is red, then both its children are black.(Node that two red nodes can not be adjacent,but black nodes can adjacent to red node or black node.)
  5.For each node, all simple paths from the node to descendent leaves contain the same number of black nodes.
  Hence, we can define black-height of a node to be this number.
  
  For 3 insertion cases , please refer to insertion_case.jpg
  For 4 deletion cases , please refer to deletion_case.jpg
- Lemma:A red-black tree with n internal nodes has height at most 2lg(n+1)
+ Lemma:A red-black tree with n internal nodes has height at most 2log(n+1)
  */
 #ifndef RB_tree_hpp
 #define RB_tree_hpp
@@ -25,7 +24,7 @@
 #include <stdio.h>
 #define KeyType int
 #define ElementType int
-#define sentinel 1<<31  //the smallest interger
+#define sentinel 1<<31  //the smallest integer
 using namespace std;
 enum Color{red,black};
 typedef struct node{ //A tree node
